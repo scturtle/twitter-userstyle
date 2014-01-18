@@ -86,7 +86,7 @@ s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-me .latest-
  */
 
 .selected-stream-item:focus {
-  box-shadow: none !important;
+  box-shadow: 0 0 0 1px #55acee !important;
 }
 
 
@@ -407,8 +407,9 @@ s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-me .latest-
   display: none !important;
 }
 
-.tweet .stream-item-footer {
+.tweet .stream-item-footer, .tweet .bottom-tweet-actions {
   max-height: 24px !important;
+  float: right !important;
 }
 .tweet .bottom-tweet-actions {
   height: 24px !important;
