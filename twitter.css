@@ -407,9 +407,8 @@ s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-me .latest-
   display: none !important;
 }
 
-.tweet .stream-item-footer, .tweet .bottom-tweet-actions {
+.tweet .stream-item-footer {
   max-height: 24px !important;
-  float: right !important;
 }
 .tweet .bottom-tweet-actions {
   height: 24px !important;
@@ -431,9 +430,7 @@ s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-me .latest-
 /* Tweet actions */
 .tweet-actions {
   position: static !important;
-  float: none !important;
-  padding-left: 0 !important;
-  margin-left: -10px !important;
+  float: right !important;
   background-color: transparent !important;
   box-shadow: none !important;
 }
