@@ -1,3 +1,9 @@
+/* fix three-col */
+body.three-col .content-main {
+    float: right !important;
+    margin: 0 0 !important;
+}
+    
 /*
  * Colors
  *
@@ -246,6 +252,9 @@ s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-me .latest-
   background-color: #3886c1 !important;
   opacity: 1 !important;
 }
+.global-nav .form-search .search-input::-moz-placeholder {
+  color: #81c1f2 !important;
+}
 .global-nav .form-search .search-input:placeholder {
   color: #81c1f2 !important;
 }
@@ -457,7 +466,9 @@ s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-me .latest-
 /* Tweet actions */
 .tweet-actions {
   position: static !important;
-  float: right !important;
+  float: none !important;
+  padding-left: 0 !important;
+  margin-left: -10px !important;
   background-color: transparent !important;
   box-shadow: none !important;
 }
